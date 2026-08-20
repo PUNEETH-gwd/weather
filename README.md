@@ -1,5 +1,12 @@
 # Weather App
 
+A full-stack weather application built with HTML, CSS, JavaScript, Node.js, and Express.
+
+## 🚀 Live Demo
+
+[Open Weather App](https://weather-1-1nml.onrender.com)
+
+
 A simple weather application that allows users to search for the current weather of a city.
 
 ## Features
