@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     async function fetchWeather(city) {
 
         const url =
-            `http://localhost:5000/weather?city=${encodeURIComponent(city)}`;
+            `https://weather-n497.onrender.com/weather?city=${encodeURIComponent(city)}`;
 
         try {
 
@@ -37,7 +37,9 @@ document.addEventListener("DOMContentLoaded", () => {
             const data = await response.json();
 
             if (!response.ok) {
-                throw new Error(data.error?.message || "Weather request failed");
+                throw new Error(
+                    data.error?.message || "Weather request failed"
+                );
             }
 
 
